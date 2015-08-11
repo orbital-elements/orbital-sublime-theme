@@ -6,6 +6,6 @@
 
 #### Customize
 
-1. Open **SKetch** file in `_source` folder
+1. Open `_source/orbital.sketch` in **Sketch App**
 2. Customize
-3. Export (CMD+Shift+E) to `Cola/images` folder to overwrite the theme.
+3. Export (CMD+Shift+E) to `Cola/images` folder to overwrite them.
