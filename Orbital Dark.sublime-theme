@@ -117,7 +117,7 @@
 	{
 		"class": "tab_control",
 		"attributes": ["hover"],
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/tabs/tab-hover.png",
+		"layer0.texture": "Theme - Orbital/images-dark/tab-hover.png",
 		"layer0.opacity": 0.75
 	},
 	// Tab active state
@@ -437,7 +437,7 @@
 	{
 		"class": "overlay_control",
 		"settings": ["!soda_retina_fix"],
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-background.png",
+		"layer0.texture": "Theme - Orbital/images-dark/quick-panel-background.png",
 		"layer0.inner_margin": [12, 6, 12, 15],
 		"layer0.opacity": 1,
 		"layer1.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-sections.png",
@@ -464,14 +464,14 @@
 	},
 	{
 		"class": "quick_panel_row",
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-row.png",
+		"layer0.texture": "Theme - Orbital/images-dark/quick-panel-row.png",
 		"layer0.inner_margin": [2, 2, 2, 2],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-row-selected.png",
+		"layer0.texture": "Theme - Orbital/images-dark/quick-panel-row-selected.png",
 		"layer0.opacity": 1
 	},
 	{
@@ -500,14 +500,14 @@
 
 	{
 		"class": "mini_quick_panel_row",
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-row.png",
+		"layer0.texture": "Theme - Orbital/images-dark/quick-panel-row.png",
 		"layer0.inner_margin": [2, 2, 2, 2],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.texture": "Theme - Orbital/images-dark/legacy/quick-panel/quick-panel-row-selected.png"
+		"layer0.texture": "Theme - Orbital/images-dark/quick-panel-row-selected.png"
 	},
 
 

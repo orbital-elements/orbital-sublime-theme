@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Ian Hill</string>
+	<string>Lauricio Su</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Cola Dark theme.</string>
+	<string>A widget theme for the UI components of the Orbital Dark theme. Derived from Cola theme.</string>
 	<key>name</key>
 	<string>Cola - Widget Theme</string>
 	<key>settings</key>
@@ -14,11 +14,12 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#383838</string>
+				<string>#201f1d</string>
 				<key>caret</key>
-				<string>#F8F8F8</string>
+				<!-- <string>#FF3300</string> -->
+				<string>#ffba52</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#dcdbd9</string>
 				<key>invisibles</key>
 				<string>#3B3B3B</string>
 				<key>lineHighlight</key>
@@ -52,7 +53,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A7DBD8</string>
+				<!-- <string>#A7DBD8</string> -->
+				<string>#ffba52</string>
 			</dict>
 		</dict>
 		<dict>
