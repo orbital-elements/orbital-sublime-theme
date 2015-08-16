@@ -143,5 +143,217 @@
 		// layer0.texture is filled in by code with the relevant icon name
 		"layer0.opacity": 1,
 		"content_margin": [8, 8]
-	}
+	},
+
+//
+// STANDARD TEXT BUTTONS
+//
+
+	// Default button state
+	{
+		"class": "button_control",
+		"content_margin": [6, 5, 6, 6],
+		"min_size": [75, 0],
+		"layer0.texture": "User/Theme - Cola/images/btn-large.png",
+		"layer0.opacity": 0.8,
+		"layer0.inner_margin": [6, 6]
+	},
+	// Pressed button state
+	{
+		"class": "button_control",
+		"attributes": ["pressed"],
+		"layer0.texture": "User/Theme - Cola/images/btn-large-on.png"
+	},
+
+//
+// BOTTOM PANEL BUTTONS
+//
+
+	// Button group middle
+	{
+		"class": "icon_button_control",
+		"layer0.texture": "User/Theme - Cola/images/btn-group-middle.png",
+		"layer0.inner_margin": [6, 6],
+		"layer0.opacity": 0.8,
+		"content_margin": [3, 3]
+	},
+	{
+		"class": "icon_button_control",
+		"attributes": ["selected"],
+		"layer0.texture": "User/Theme - Cola/images/btn-group-middle-on.png"
+	},
+	// Button group left
+	{
+		"class": "icon_button_control",
+		"attributes": ["left"],
+		"layer0.texture": "User/Theme - Cola/images/btn-group-left.png",
+		"content_margin": [4, 3, 3, 3]
+	},
+	{
+		"class": "icon_button_control",
+		"attributes": ["left", "selected"],
+		"layer0.texture": "User/Theme - Cola/images/btn-group-left-on.png"
+	},
+	// Button group right
+	{
+		"class": "icon_button_control",
+		"attributes": ["right"],
+		"layer0.texture": "User/Theme - Cola/images/btn-group-right.png",
+		"content_margin": [3, 3, 4, 3]
+	},
+	{
+		"class": "icon_button_control",
+		"attributes": ["right", "selected"],
+		"layer0.texture": "User/Theme - Cola/images/btn-group-right-on.png"
+	},
+	// Button single
+	{
+		"class": "icon_button_control",
+		"attributes": ["left", "right"],
+		"layer0.texture": "User/Theme - Cola/images/btn-small.png",
+		"content_margin": [4, 3]
+	},
+	{
+		"class": "icon_button_control",
+		"attributes": ["left", "right", "selected"],
+		"layer0.texture": "User/Theme - Cola/images/btn-small-on.png"
+	},
+
+//
+// BOTTOM PANEL ICONS - GROUP 1
+//
+
+	// Regex search button
+	{
+		"class": "icon_regex",
+		"layer0.texture": "User/Theme - Cola/images/icon-regex-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_regex",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-regex-on.png"
+	},
+	// Case sensitive search button
+	{
+		"class": "icon_case",
+		"layer0.texture": "User/Theme - Cola/images/icon-case-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_case",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-case-on.png"
+	},
+	// Match whole word search button
+	{
+		"class": "icon_whole_word",
+		"layer0.texture": "User/Theme - Cola/images/icon-word-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_whole_word",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-word-on.png"
+	},
+
+//
+// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
+//
+
+	// Show search context button
+	{
+		"class": "icon_context",
+		"layer0.texture": "User/Theme - Cola/images/icon-context-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_context",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-context-on.png"
+	},
+	// Use search buffer
+	{
+		"class": "icon_use_buffer",
+		"layer0.texture": "User/Theme - Cola/images/icon-buffer-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_use_buffer",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-buffer-on.png"
+	},
+
+
+//
+// BOTTOM PANEL ICONS - GROUP 2
+//
+
+	// Reverse search direction button
+	{
+		"class": "icon_reverse",
+		"layer0.texture": "Theme - Cola/images/icon-reverse-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_reverse",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "Theme - Cola/images/icon-reverse-on.png"
+	},
+	// Search wrap button
+	{
+		"class": "icon_wrap",
+		"layer0.texture": "User/Theme - Cola/images/icon-wrap-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_wrap",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-wrap-on.png"
+	},
+	// Search in selection button
+	{
+		"class": "icon_in_selection",
+		"layer0.texture": "User/Theme - Cola/images/icon-selection-off.png",
+		"layer0.opacity": 1.0,
+		"content_margin": [9, 9]
+	},
+	{
+		"class": "icon_in_selection",
+		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+		"layer0.texture": "User/Theme - Cola/images/icon-selection-on.png"
+	},
+
+//
+// TEXT INPUT FIELD
+//
+
+	// Text input field item
+	{
+		"class": "text_line_control",
+		"layer0.texture": "User/Theme - Cola/images/text-field.png",
+		"layer0.opacity": 1.0,
+		"layer0.inner_margin": [4, 5, 4, 3],
+		"content_margin": [3, 3, 6, 3]
+	},
+
+//
+// PANEL BACKGROUNDS
+//
+
+	// Bottom panel background
+	{
+		"class": "panel_control",
+		"layer0.texture": "User/Theme - Cola/images/panel-background.png",
+		"layer0.inner_margin": [2, 2, 2, 2],
+		"layer0.opacity": 1,
+		"content_margin": [2, 3, 2, 1]
+	},
 ]
